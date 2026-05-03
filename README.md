@@ -4,11 +4,11 @@
 
 Verify the supply chain of [Spring PetClinic](https://github.com/spring-projects/spring-petclinic) — the canonical Spring Boot app, 26 Maven dependencies verified and signed.
 
-## Clone and verify
+## Try it on Spring PetClinic
 
 ```bash
-git clone git@github.com:blackswan-software/cygnus-demo-java.git
-cd cygnus-demo-java
+git clone https://github.com/spring-projects/spring-petclinic.git
+cd spring-petclinic
 curl -fsSL https://install.blackswan-software.ai | sh
 cygnus -e java verify
 ```
@@ -74,4 +74,4 @@ org.hibernate.orm:hibernate-core==6.6.4                        FULLY_VERIFIED   
 ## Links
 
 - [Cygnus](https://blackswan-software.ai) — The Certificate Authority for Software Libraries
-- [Spring PetClinic](https://github.com/spring-projects/spring-petclinic)
+- [Spring PetClinic](https://github.com/spring-projects/spring-petclinic) — Fork it and try Cygnus
